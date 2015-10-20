@@ -1,4 +1,4 @@
-# Ignore::Skylight::Rack::Endpoint
+# Rack::SkylightEndpoint
 
 Rack middleware to set custom [skylight.io](http://skylight.io) endpoints for specific paths.
 I'm using it to ignore Rack based health check responses in skylight.
