@@ -4,6 +4,8 @@ Rack middleware to set custom [skylight.io](http://skylight.io) endpoints for sp
 I'm using it to ignore Rack based health check responses in skylight.
 It is based on teodor-pripoae's [suggestion](https://github.com/skylightio/skylight-ruby/issues/19).
 
+WARNING: Uses skylights private API.
+
 ## Installation
 
 Add this line to your application's Gemfile:
