@@ -1,13 +1,13 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
-  spec.name          = "rack-path-dependent-skylight-endpoint"
+  spec.name          = "rack-skylight-endpoint"
   spec.version       = '1.0.0'
   spec.authors       = ["Eduard Litau"]
   spec.email         = ["eduard.litau@gmail.com"]
 
   spec.summary       = %q{Custom skylight endpoints for specific paths}
   spec.description   = %q{Rack middleware to set custom skylight.io endpoints for specific paths.}
-  spec.homepage      = "http://github/elitau/rack-path-dependent-skylight-endpoint"
+  spec.homepage      = "http://github/elitau/rack-skylight-endpoint"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

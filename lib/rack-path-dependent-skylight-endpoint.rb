@@ -1,1 +1,0 @@
-require_relative 'rack/path_dependent_skylight_endpoint'

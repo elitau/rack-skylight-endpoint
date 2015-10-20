@@ -1,5 +1,5 @@
 module Rack
-  class PathDependentSkylightEndpoint
+  class SkylightEndpoint
     def initialize(app, options = {})
       @app = app
       @options = {

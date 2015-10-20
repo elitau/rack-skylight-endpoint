@@ -11,7 +11,7 @@ WARNING: Uses skylights private API.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rack-path-dependent-skylight-endpoint'
+gem 'rack-skylight-endpoint'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ And then execute:
 ## Customization
 
 ```ruby
-use Rack::PathDependentSkylightEndpoint, path: '/healthcheck', endpoint: 'healthcheck'
+use Rack::SkylightEndpoint, path: '/healthcheck', endpoint: 'healthcheck'
 ```
 
 Add this to your skylight config:
@@ -38,7 +38,7 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 ## Contributing
 
-1. Fork it ( https://github.com/elitau/rack-path-dependent-skylight-endpoint/fork )
+1. Fork it ( https://github.com/elitau/rack-skylight-endpoint/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

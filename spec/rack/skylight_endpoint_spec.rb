@@ -1,9 +1,9 @@
 require 'rack/lint'
 require 'rack/mock'
-require 'rack/path_dependent_skylight_endpoint'
+require 'rack/skylight_endpoint'
 require 'singleton'
 
-describe Rack::PathDependentSkylightEndpoint do
+describe Rack::SkylightEndpoint do
   module Skylight
     class Instrumenter
       attr_accessor :endpoint
@@ -31,7 +31,7 @@ describe Rack::PathDependentSkylightEndpoint do
   let(:options) { {} }
 
   let(:app) do
-    Rack::Lint.new(Rack::PathDependentSkylightEndpoint.new(base_app, options))
+    Rack::Lint.new(Rack::SkylightEndpoint.new(base_app, options))
   end
 
   before do
