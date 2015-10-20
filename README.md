@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/elitau/rack-skylight-endpoint.svg)](https://travis-ci.org/elitau/rack-skylight-endpoint)
+
 # Rack::SkylightEndpoint
 
 Rack middleware to set custom [skylight.io](http://skylight.io) endpoints for specific paths.
